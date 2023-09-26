@@ -1,6 +1,4 @@
-body {
-
-}
+body {}
 
 .menu {
     position: absolute;
@@ -33,8 +31,7 @@ body {
     margin-left: 24px;
 }
 
-.menu .group__links .links__item .item__link 
-{
+.menu .group__links .links__item .item__link {
     color: #fff;
     font-size: 16px;
     margin-left: 41px;
@@ -50,6 +47,7 @@ body {
     align-items: center;
     flex-direction: column;
 }
+
 .cabecalho .cabecalho__banner {
     position: absolute;
     width: 100%;
@@ -95,8 +93,7 @@ body {
 /* CONTEUDO */
 
 /* CONTEUDO - FEATURES */
-.conteudo__features {
-}
+.conteudo__features {}
 
 .conteudo .conteudo__features {
     text-align: center;
@@ -118,15 +115,15 @@ body {
     margin-bottom: 90px;
 }
 
- /* CONTEUDO - CARDS */
+/* CONTEUDO - CARDS */
 
- .features__cards {
+.features__cards {
     display: flex;
     width: 869px;
     max-width: 100%;
     margin: 0 auto;
     margin-bottom: 132px;
- }
+}
 
 
 /* NEWSLETTER */
@@ -170,25 +167,121 @@ body {
     display: inline-block;
     border-radius: 200px;
     text-align: center;
- }
+}
 
- /* VIDEO */
+/* VIDEO */
 
- /* Estilize o contêiner do vídeo */
+/* Estilize o contêiner do vídeo */
 .video-container {
     position: relative;
-    width: 560px; /* Largura do vídeo */
-    height: 315px; /* Altura do vídeo */
+    width: 1300px;
+    /* Largura do vídeo */
+    height: 600px;
+    /* Altura do vídeo */
     overflow: hidden;
-    border-radius: 20px; /* Adicione um raio de borda para arredondar as bordas */
-  }
-  
-  /* Estilize o iframe dentro do contêiner */
-  .video-container iframe {
+    border-radius: 20px;
+    /* Adicione um raio de borda para arredondar as bordas */
+    margin: 0 auto;
+}
+
+/* Estilize o iframe dentro do contêiner */
+.video-container iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    border: 0; /* Remova qualquer borda padrão do iframe */
-  }
+    border: 0;
+    /* Remova qualquer borda padrão do iframe */
+}
+
+/* NEWSLETTER */
+
+.newsletter .newsletter__second-box {
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+    max-width: 100%;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.newsletter .newsletter__second-box .second-box__box--right {
+    text-align: left;
+    margin-left: 115px;
+}
+
+.newsletter .newsletter__second-box .second-box__box--right .box--right__subtitle {
+    color: #252B42;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+}
+
+
+.newsletter .newsletter__second-box .second-box__box--right .box--right__title {
+    color: #252B42;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0.2px;
+    display: block;
+    margin-top: 17px;
+}
+
+.newsletter .newsletter__second-box .second-box__box--right .box--right__description {
+    color: #252B42;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    margin-top: 35px;
+    display: block;
+}
+
+.newsletter .newsletter__second-box .second-box__box--right .box--right__label {
+    color: #252B42;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+}
+
+.newsletter .newsletter__second-box .second-box__box--right .box--right__label {
+    color: #252B42;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+}
+
+.newsletter .newsletter__second-box .second-box__formulario {
+    display: flex;
+    margin-top: 55px;
+}
+
+.newsletter .newsletter__second-box .second-box__formulario .formulario__email {
+    height: 54px;
+    margin-right: 12px;
+    width: 273px;
+    max-width: 100%;
+    border-radius: 39px;
+    border: solid 1px #E8E8E8;
+    background-color: #F4F4F4;
+    padding-left: 29px;
+    color: #18171D;
+    outline: none;
+}
+
+.newsletter .newsletter__second-box .second-box__formulario .formulario__button {
+    width: 172px;
+    max-width: 100%;
+    border-radius: 35px;
+    border: none;
+    background: #2091F9;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
