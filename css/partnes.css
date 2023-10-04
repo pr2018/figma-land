@@ -39,7 +39,6 @@
 .partnes .partnes__button {
     margin-top: 80px;
     margin-bottom: 80px;
-    width: 172px;
     max-width: 100%;
     border-radius: 35px;
     border: none;
@@ -48,6 +47,6 @@
     color: #FFFFFF;
     cursor: pointer;
     text-align: center;
-    padding: 10px;
     text-decoration: none;
+    padding: 16px 47px;
 }

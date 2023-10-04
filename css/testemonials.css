@@ -1,0 +1,82 @@
+.testemonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testemonials .testemonials__title {
+    color: #252B42;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0.2px;
+    display: block;
+    margin-top: 17px;
+}
+
+.testemonials .testemonials__testemonial {
+    text-align: center;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testemonials .testemonials__testemonial .testemonial__avatar{
+    display: flex;
+}
+
+.testemonials .testemonials__testemonial .testemonial__subtitle {
+    margin-top: 50px;
+    color: #252B42;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+}
+
+.testemonials .testemonials__testemonial  .testemonial__avatar {
+    margin-top: 50px;
+}
+
+.testemonials .testemonials__testemonial  .testemonial__avatar .avatar__description {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.testemonials .testemonials__icons {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.testemonials .testemonials__icons .icons__icon {
+    padding: 40px;
+    width: 25%;
+    max-width: 100%;
+    border: 1px solid #D8D8D8;
+}
+
+.testemonials .testemonials__button {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    max-width: 100%;
+    border-radius: 35px;
+    border: none;
+    background: #2091F9;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    padding: 16px 47px;
+}
+
+.testemonial__logo {
+
+}
